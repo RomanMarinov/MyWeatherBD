@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:cardCornerRadius="10dp"
+        android:elevation="10dp"
+
+        android:layout_marginStart="2.5dp"
+        android:layout_marginEnd="2.5dp"
+        android:layout_marginBottom="10dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:fontFamily="@font/baloo_chettan"
+            android:gravity="start"
+            android:paddingEnd="5dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingStart="10dp"
+            android:text="android "
+            android:background="@drawable/gradient_reverse"
+            android:textAllCaps="false"
+            android:textColor="@color/my_grey"
+            android:textSize="20sp" />
+
+    </androidx.cardview.widget.CardView>
+</layout>
+
+
+<!--    android:shadowColor="@color/black"-->
+<!--    android:shadowDx="3"-->
+<!--    android:shadowDy="3"-->
+<!--    android:shadowRadius="2"-->
